@@ -1,0 +1,108 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Product Media via URL's Module 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-01 12:00+0000\n"
+"PO-Revision-Date: 2023-04-01 12:00+0000\n"
+"Last-Translator: Vishwa G\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: product_media_urls
+#: model:product.template,media_url:0
+msgid "Media URL"
+msgstr "Media URL"
+
+#. module: product_media_urls
+#: model:product.template,is_media_url_active:0
+msgid "Is Media URL Active"
+msgstr "Is Media URL Active"
+
+#. module: product_media_urls
+#: model:ir.actions.server,name:product_media_url_cron
+msgid "Scheduled Media URL Fetch"
+msgstr "Scheduled Media URL Fetch"
+
+#. module: product_media_urls
+#: code:addons/product_media_urls/models/product_template.py:0
+msgid "MEDIA_URL_FETCH_SUCCESS"
+msgstr "Media URL fetch successful."
+
+#. module: product_media_urls
+#: code:addons/product_media_urls/models/product_template.py:0
+msgid "MEDIA_URL_FETCH_ERROR"
+msgstr "Error fetching media URL."
+
+#. module: product_media_urls
+#: view:product.template:product_media_urls.product_template_form_view
+msgid "Product Media URL Configuration"
+msgstr "Product Media URL Configuration"
+
+#. module: product_media_urls
+#: view:product.media.url.config:product_media_urls.product_media_url_config_form_view
+msgid "Media URL Configuration"
+msgstr "Media URL Configuration"
+
+#. module: product_media_urls
+#: code:addons/product_media_urls/controllers/main.py:0
+msgid "Error Log"
+msgstr "Error Log"
+
+#. module: product_media_urls
+#: code:addons/product_media_urls/controllers/main.py:0
+msgid "Configure Media URLs"
+msgstr "Configure Media URLs"
+
+#. module: product_media_urls
+#: code:addons/product_media_urls/controllers/main.py:0
+msgid "Validate Media URL"
+msgstr "Validate Media URL"
+
+#. module: product_media_urls
+#: code:addons/product_media_urls/static/src/js/product_media_script.js:0
+msgid "Display Fetched Media"
+msgstr "Display Fetched Media"
+
+#. module: product_media_urls
+#: code:addons/product_media_urls/static/src/js/product_media_script.js:0
+msgid "Log Media Fetch Error"
+msgstr "Log Media Fetch Error"
+
+#. module: product_media_urls
+#: code:addons/product_media_urls/static/src/js/product_media_script.js:0
+msgid "Fetch Media From URL"
+msgstr "Fetch Media From URL"
+
+#. module: product_media_urls
+#: selection:product.template,media_type:0
+msgid "Image"
+msgstr "Image"
+
+#. module: product_media_urls
+#: selection:product.template,media_type:0
+msgid "Video"
+msgstr "Video"
+
+#. module: product_media_urls
+#: selection:product.template,media_type:0
+msgid "Document"
+msgstr "Document"
+
+#. module: product_media_urls
+#: doc:installation_guide.md:0
+msgid "Installation Guide"
+msgstr "Installation Guide"
+
+#. module: product_media_urls
+#: doc:configuration_guide.md:0
+msgid "Configuration Guide"
+msgstr "Configuration Guide"
+
+#. module: product_media_urls
+#: doc:troubleshooting_guide.md:0
+msgid "Troubleshooting Guide"
+msgstr "Troubleshooting Guide"
