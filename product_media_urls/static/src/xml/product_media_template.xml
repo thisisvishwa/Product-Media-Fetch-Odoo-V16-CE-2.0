@@ -1,0 +1,11 @@
+<templates>
+    <t t-name="ProductMediaURLWidget">
+        <div class="media_display_area">
+            <img t-att-src="widget.media_url" class="product-media-url-img" alt="Product Media"/>
+            <div t-if="widget.error" class="product-media-url-error">
+                <span>Error loading media: </span>
+                <t t-esc="widget.error"/>
+            </div>
+        </div>
+    </t>
+</templates>

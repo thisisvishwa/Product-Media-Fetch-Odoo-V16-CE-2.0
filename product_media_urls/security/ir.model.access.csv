@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_product_template_user,product.template user,model_product_template,base.group_user,1,0,0,0
+access_product_template_manager,product.template manager,model_product_template,base.group_system,1,1,1,1
+access_product_media_url_config_user,product.media.url.config user,model_product_media_url_config,base.group_user,1,0,0,0
+access_product_media_url_config_manager,product.media.url.config manager,model_product_media_url_config,base.group_system,1,1,1,1

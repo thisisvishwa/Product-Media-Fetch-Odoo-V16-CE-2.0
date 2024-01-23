@@ -1,0 +1,30 @@
+/* product_media_urls/static/src/css/product_media_style.css */
+
+.product-media-url-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.product-media-url-error {
+  color: #dc3545; /* Bootstrap danger color for consistency */
+  background-color: #f8d7da; /* Bootstrap danger background color */
+  border-color: #f5c6cb; /* Bootstrap danger border color */
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+/* Responsive media display area */
+@media (min-width: 768px) {
+  .media_display_area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* Placeholder for additional custom styles */
+/* Feel free to add more styles as per the module's requirements */

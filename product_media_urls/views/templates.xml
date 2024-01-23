@@ -1,0 +1,31 @@
+<odoo>
+    <template id="assets_backend" name="product_media_urls assets" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <link rel="stylesheet" type="text/scss" href="/product_media_urls/static/src/css/product_media_style.css"/>
+            <script type="text/javascript" src="/product_media_urls/static/src/js/product_media_script.js"></script>
+        </xpath>
+    </template>
+
+    <template id="product_media_url_frontend_display" name="Product Media URL Frontend Display">
+        <t t-if="product.media_url and product.is_media_url_active">
+            <div id="media_display_area" t-attf-class="media_display_area #{product.id}">
+                <!-- Media content will be dynamically inserted here by the product_media_script.js -->
+            </div>
+        </t>
+        <t t-else="">
+            <span>No media available.</span>
+        </t>
+    </template>
+
+    <template id="product_media_url_error_log" name="Product Media URL Error Log">
+        <t t-if="error_logs">
+            <div id="error_log_container" class="error_log_container">
+                <ul>
+                    <t t-foreach="error_logs" t-as="log">
+                        <li class="product-media-url-error">Error: <t t-esc="log.message"/></li>
+                    </t>
+                </ul>
+            </div>
+        </t>
+    </template>
+</odoo>
